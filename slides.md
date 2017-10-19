@@ -194,14 +194,14 @@ philipulrich:~/workspace/class10 (master) $ nosetests
 F
 ======================================================================
 FAIL: test.test_palindrome_words
-----------------------------------------------------------------------
+......................................................................
 Traceback (most recent call last):
   File "/usr/local/lib/python3.4/dist-packages/nose/case.py", line 198, in runTest
     self.test(*self.arg)
   File "/home/ubuntu/workspace/class7/test.py", line 5, in test_palindrome_words
     assert is_palindrome(input) == True
 AssertionError
-----------------------------------------------------------------------
+......................................................................
 Ran 1 test in 0.006s
 FAILED (failures=1)
 ```
@@ -225,7 +225,7 @@ Now that we have a test ready, we can finish coding it and run it to see what ha
 ```
 philipulrich:~/workspace/class10 (master) $ nosetests
 .
-----------------------------------------------------------------------
+......................................................................
 Ran 1 test in 0.005s
 OK
 ```
@@ -269,14 +269,14 @@ philipulrich:~/workspace/class7 (master) $ nosetests
 .F
 ======================================================================
 FAIL: test.test_palindrome_case_independent
-----------------------------------------------------------------------
+......................................................................
 Traceback (most recent call last):
   File "/usr/local/lib/python3.4/dist-packages/nose/case.py", line 198, in runTest
     self.test(*self.arg)
   File "/home/ubuntu/workspace/class7/test.py", line 9, in test_palindrome_case_independent
     assert is_palindrome(input) == True
 AssertionError
-----------------------------------------------------------------------
+......................................................................
 Ran 2 tests in 0.005s
 FAILED (failures=1)
 ```
@@ -301,7 +301,7 @@ Easy enough fix, make it lower!
 ```
 philipulrich:~/workspace/class10 (master) $ nosetests
 ..
-----------------------------------------------------------------------
+......................................................................
 Ran 2 tests in 0.005s
 OK
 ```
@@ -338,14 +338,14 @@ philipulrich:~/workspace/class10 (master) $ nosetests
 ..F
 ======================================================================
 FAIL: test.test_palindrome_with_spaces
-----------------------------------------------------------------------
+......................................................................
 Traceback (most recent call last):
   File "/usr/local/lib/python3.4/dist-packages/nose/case.py", line 198, in runTest
     self.test(*self.arg)
   File "/home/ubuntu/workspace/class7/test.py", line 13, in test_palindrome_with_spaces
     assert is_palindrome(input) == True
 AssertionError
-----------------------------------------------------------------------
+......................................................................
 Ran 3 tests in 0.005s
 FAILED (failures=1)
 ```
@@ -370,7 +370,7 @@ Now we are removing whitespace and switching to lowercase.
 ```
 philipulrich:~/workspace/class7 (master) $ nosetests
 …
-----------------------------------------------------------------------
+......................................................................
 Ran 3 tests in 0.005s
 OK
 ```
@@ -411,14 +411,14 @@ philipulrich:~/workspace/class10 (master) $ nosetests
 ..F
 ======================================================================
 FAIL: test.test_palindrome_with_spaces
-----------------------------------------------------------------------
+......................................................................
 Traceback (most recent call last):
   File "/usr/local/lib/python3.4/dist-packages/nose/case.py", line 198, in runTest
     self.test(*self.arg)
   File "/home/ubuntu/workspace/class7/test.py", line 13, in test_palindrome_with_spaces
     assert is_palindrome(input) == True
 AssertionError
-----------------------------------------------------------------------
+......................................................................
 Ran 4 tests in 0.005s
 FAILED (failures=1)
 ```
@@ -443,7 +443,7 @@ We replaced strip with replace and opted to just remove all whitespace.
 ```
 philipulrich:~/workspace/class7 (master) $ nosetests
 ….
-----------------------------------------------------------------------
+......................................................................
 Ran 4 tests in 0.005s
 OK
 ```
