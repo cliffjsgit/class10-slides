@@ -125,11 +125,9 @@ class CalendarClock(Clock, Calendar):
 
 ##### 18.1 Card Objects
 
-</script></section><section data-markdown><script type="text/template">
-
 Open to page 171 in your book and we will code along with the principles as we learn them.
 
-----
+</script></section></section><section ><section data-markdown><script type="text/template">
 
 ##### Unit Testing
 
@@ -177,7 +175,7 @@ def test_palindrome_words():
 You also may notice that the function is named test_palindrome_words. This can be anything you want it to be. I would recommend sticking to a standard of test_[function-identifier]_[descriptor(s)]</p>
 </aside></script></section><section data-markdown><script type="text/template">
 
-```bash
+```
 philipulrich:~/workspace/class10 (master) $ nosetests
 F
 ======================================================================
@@ -206,7 +204,7 @@ def is_palindrome(strin):
 <aside class="notes"><p>Now that we have a test ready, we can finish coding it and run it to see what happens.</p>
 </aside></script></section><section data-markdown><script type="text/template">
 
-```bash
+```
 philipulrich:~/workspace/class10 (master) $ nosetests
 .
 </script></section></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section ><section data-markdown><script type="text/template">
@@ -242,7 +240,7 @@ def test_palindrome_case_independent():
 <aside class="notes"><p>Let&#39;s make sure that case isn&#39;t an issue when testing. (Hint: it is in our current solution)</p>
 </aside></script></section><section data-markdown><script type="text/template">
 
-```bash
+```
 philipulrich:~/workspace/class7 (master) $ nosetests
 .F
 ======================================================================
@@ -272,7 +270,7 @@ def is_palindrome(strin):
 <aside class="notes"><p>Easy enough fix, make it lower!</p>
 </aside></script></section><section data-markdown><script type="text/template">
 
-```bash
+```
 philipulrich:~/workspace/class10 (master) $ nosetests
 ..
 </script></section></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section ><section data-markdown><script type="text/template">
@@ -303,7 +301,7 @@ def test_palindrome_with_spaces():
 <aside class="notes"><p>If we put equal spaces on both sides, it would work. So make sure to specify uneven spaces.</p>
 </aside></script></section><section data-markdown><script type="text/template">
 
-```bash
+```
 philipulrich:~/workspace/class10 (master) $ nosetests
 ..F
 ======================================================================
@@ -333,7 +331,7 @@ def is_palindrome(strin):
 <aside class="notes"><p>Now we are removing whitespace and switching to lowercase.</p>
 </aside></script></section><section data-markdown><script type="text/template">
 
-```bash
+```
 philipulrich:~/workspace/class7 (master) $ nosetests
 …
 </script></section></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section ><section data-markdown><script type="text/template">
@@ -368,7 +366,7 @@ def test_palindrome_with_spaces_between():
 <aside class="notes"><p>Now we are testing with spaces between the words with a 540 word palindrome. A little, much, but why not?</p>
 </aside></script></section><section data-markdown><script type="text/template">
 
-```bash
+```
 philipulrich:~/workspace/class10 (master) $ nosetests
 ..F
 ======================================================================
@@ -398,7 +396,7 @@ def is_palindrome(strin):
 <aside class="notes"><p>We replaced strip with replace and opted to just remove all whitespace.</p>
 </aside></script></section><section data-markdown><script type="text/template">
 
-```bash
+```
 philipulrich:~/workspace/class7 (master) $ nosetests
 ….
 </script></section></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section  data-markdown><script type="text/template"></script></section><section ><section data-markdown><script type="text/template">

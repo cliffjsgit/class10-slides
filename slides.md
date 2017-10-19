@@ -129,11 +129,9 @@ We've seen single inheritance, but you can also have multiple inheritance and it
 
 ##### 18.1 Card Objects
 
-+++++
-
 Open to page 171 in your book and we will code along with the principles as we learn them.
 
-----
+-----
 
 ##### Unit Testing
 
@@ -191,7 +189,7 @@ You also may notice that the function is named test\_palindrome\_words. This can
 
 +++++
 
-```bash
+```
 philipulrich:~/workspace/class10 (master) $ nosetests
 F
 ======================================================================
@@ -224,7 +222,7 @@ Now that we have a test ready, we can finish coding it and run it to see what ha
 
 +++++
 
-```bash
+```
 philipulrich:~/workspace/class10 (master) $ nosetests
 .
 ----------------------------------------------------------------------
@@ -266,7 +264,7 @@ Let's make sure that case isn't an issue when testing. (Hint: it is in our curre
 
 +++++
 
-```bash
+```
 philipulrich:~/workspace/class7 (master) $ nosetests
 .F
 ======================================================================
@@ -300,7 +298,7 @@ Easy enough fix, make it lower!
 
 +++++
 
-```bash
+```
 philipulrich:~/workspace/class10 (master) $ nosetests
 ..
 ----------------------------------------------------------------------
@@ -335,7 +333,7 @@ If we put equal spaces on both sides, it would work. So make sure to specify une
 
 +++++
 
-```bash
+```
 philipulrich:~/workspace/class10 (master) $ nosetests
 ..F
 ======================================================================
@@ -369,7 +367,7 @@ Now we are removing whitespace and switching to lowercase.
 
 +++++
 
-```bash
+```
 philipulrich:~/workspace/class7 (master) $ nosetests
 …
 ----------------------------------------------------------------------
@@ -408,7 +406,7 @@ Now we are testing with spaces between the words with a 540 word palindrome. A l
 
 +++++
 
-```bash
+```
 philipulrich:~/workspace/class10 (master) $ nosetests
 ..F
 ======================================================================
@@ -442,7 +440,7 @@ We replaced strip with replace and opted to just remove all whitespace.
 
 +++++
 
-```bash
+```
 philipulrich:~/workspace/class7 (master) $ nosetests
 ….
 ----------------------------------------------------------------------
