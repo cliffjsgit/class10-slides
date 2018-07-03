@@ -2,12 +2,15 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
         <title>Class 10: Chapter 18: Inheritance / Unit Testing</title>
         <link rel="stylesheet" href="./css/reveal.css">
         <link rel="stylesheet" href="./css/theme/moon.css" id="theme">
         <link rel="stylesheet" href="./css/highlight/zenburn.css">
         <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print">
-          <link rel="stylesheet" href="./assets/assets/custom.css">
+          <link rel="stylesheet" href="./_assets/assets/custom.css">
+
 
     </head>
     <body>
@@ -18,7 +21,7 @@
 ### ITSE-1402 Intermediate Python
 <span style="font-family:Helvetica Neue; font-weight:bold; color:#e49436">Class 10: Chapter 18: Inheritance / Unit Testing</span>
 <br /><br />
-##### [https://z3r0.tech/slides-10](https://z3r0.tech/slides-10)
+##### [https://coder.run/1402-class10](https://coder.run/1402-class10)
 
 </script></section><section ><section data-markdown><script type="text/template">
 
@@ -26,7 +29,7 @@
 
 </script></section><section data-markdown><script type="text/template">
 
-[https://z3r0.tech/1402-chap18](https://z3r0.tech/1402-chap18)
+[https://coder.run/1402-chap18](https://coder.run/1402-chap18)
 
 </script></section><section data-markdown><script type="text/template">
 
@@ -38,7 +41,7 @@ The language feature most often associated with object-oriented programming is i
 parent class (superclass)
 
 
-child class (subclass)
+child class (parent)
 Inherits all data and behaviors of parent class
 Add additional info
 Add additional behavior 
@@ -82,20 +85,20 @@ class Car(Vehicle):
 ```python
 class Vehicle(object):
 	def __init__(self, year, make, model):
-		self.year = year
-		self.make = make
-		self.model = model
+		 self.year = year
+		 self.make = make
+		 self.model = model
 	def __str__(self):
-		return “This is a {} {} {}.”.format(year, make, model)
+		 return “This is a {} {} {}.”.format(year, make, model)
 
 class Car(Vehicle):
 	def __init__(self, year, make, model, mileage, body_type):
-		Vehicle.__init__(self, year, make, model)
-		self.body_type = body_type
+		 Vehicle.__init__(self, year, make, model)
+		 self.body_type = body_type
 	def __str__(self):
 		 return “This car is a {} {} {}.”.format(year, make, model)
-        def go(self):
-		    print(“vroom vroom. I’m a car.”)
+  def go(self):
+		 print(“vroom vroom. I’m a car.”)
 ```
 
 <aside class="notes"><p>The previous slide didn&#39;t actually do anything with the inheritance. This class actually creates an instance of vehicle in the class.</p>
@@ -125,7 +128,9 @@ class CalendarClock(Clock, Calendar):
 
 ##### 18.1 Card Objects
 
-Open to page 171 in your book and we will code along with the principles as we learn them.
+Open to page 165 in your book and we will code along with the principles as we learn them.
+
+Book Link (if needed): https://coder.run/1402-book
 
 </script></section></section><section ><section data-markdown><script type="text/template">
 
@@ -477,7 +482,7 @@ We will be looking at three testing frameworks:
 
 Tests compared!
 
-<aside class="notes"><p>Not sold on using something other than unittest, try these examples of our first test out for size.</p>
+<aside class="notes"><p>Not sold on using something other than unittest? try these examples of our first test out for size.</p>
 </aside></script></section><section data-markdown><script type="text/template">
 
 ##### nose
@@ -517,7 +522,7 @@ We will now write some nose tests for the previous code we have written.
 
 </script></section></section><section  data-markdown><script type="text/template">
 
-Homework is 18.3 and extra credit is to do a CodeFights Challenge. 
+Homework is 18.3
 
 No homework on unit testing, but it wouldn't hurt to play around with it a little more.
 

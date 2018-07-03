@@ -10,7 +10,7 @@ revealOptions:
 ### ITSE-1402 Intermediate Python
 <span style="font-family:Helvetica Neue; font-weight:bold; color:#e49436">Class 10: Chapter 18: Inheritance / Unit Testing</span>
 <br /><br />
-##### [https://z3r0.tech/slides-10](https://z3r0.tech/slides-10)
+##### [https://coder.run/1402-class10](https://coder.run/1402-class10)
 
 -----
 
@@ -18,7 +18,7 @@ revealOptions:
 
 +++++
 
-[https://z3r0.tech/1402-chap18](https://z3r0.tech/1402-chap18)
+[https://coder.run/1402-chap18](https://coder.run/1402-chap18)
 
 +++++
 
@@ -32,7 +32,7 @@ In this chapter, we will be demonstrating inheritance using classes that represe
 parent class (superclass)
 
 
-child class (subclass)
+child class (parent)
 Inherits all data and behaviors of parent class
 Add additional info
 Add additional behavior 
@@ -82,20 +82,20 @@ This is an example of inheritance. As you can see, the class car inherits the ve
 ```python
 class Vehicle(object):
 	def __init__(self, year, make, model):
-		self.year = year
-		self.make = make
-		self.model = model
+		 self.year = year
+		 self.make = make
+		 self.model = model
 	def __str__(self):
-		return “This is a {} {} {}.”.format(year, make, model)
+		 return “This is a {} {} {}.”.format(year, make, model)
 
 class Car(Vehicle):
 	def __init__(self, year, make, model, mileage, body_type):
-		Vehicle.__init__(self, year, make, model)
-		self.body_type = body_type
+		 Vehicle.__init__(self, year, make, model)
+		 self.body_type = body_type
 	def __str__(self):
 		 return “This car is a {} {} {}.”.format(year, make, model)
-        def go(self):
-		    print(“vroom vroom. I’m a car.”)
+  def go(self):
+		 print(“vroom vroom. I’m a car.”)
 ```
 
 Note:
@@ -129,7 +129,9 @@ We've seen single inheritance, but you can also have multiple inheritance and it
 
 ##### 18.1 Card Objects
 
-Open to page 171 in your book and we will code along with the principles as we learn them.
+Open to page 165 in your book and we will code along with the principles as we learn them.
+
+Book Link (if needed): https://coder.run/1402-book
 
 -----
 
@@ -530,7 +532,7 @@ Moving on to testing frameworks, we will be comparing 3. unittest is included in
 Tests compared!
 
 Note:
-Not sold on using something other than unittest, try these examples of our first test out for size.
+Not sold on using something other than unittest? try these examples of our first test out for size.
 
 +++++
 
@@ -575,7 +577,7 @@ We will now write some nose tests for the previous code we have written.
 
 -----
 
-Homework is 18.3 and extra credit is to do a CodeFights Challenge. 
+Homework is 18.3
 
 No homework on unit testing, but it wouldn't hurt to play around with it a little more.
 
