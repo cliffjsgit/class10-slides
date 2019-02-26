@@ -10,7 +10,7 @@ revealOptions:
 ### ITSE-1402 Intermediate Python
 <span style="font-family:Helvetica Neue; font-weight:bold; color:#e49436">Class 10: Chapter 18: Inheritance / Unit Testing</span>
 <br /><br />
-##### [https://coder.run/1402-class10](https://coder.run/1402-class10)
+##### [https://bit.ly/1402-class10](https://bit.ly/1402-class10)
 
 -----
 
@@ -18,7 +18,7 @@ revealOptions:
 
 +++++
 
-[https://coder.run/1402-chap18](https://coder.run/1402-chap18)
+[https://bit.ly/1402-chap18](https://bit.ly/1402-chap18)
 
 +++++
 
@@ -131,7 +131,7 @@ We've seen single inheritance, but you can also have multiple inheritance and it
 
 Open to page 165 in your book and we will code along with the principles as we learn them.
 
-Book Link (if needed): https://coder.run/1402-book
+Book Link (if needed): https://bit.ly/1402-book
 
 -----
 
