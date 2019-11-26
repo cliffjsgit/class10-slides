@@ -129,7 +129,7 @@ We've seen single inheritance, but you can also have multiple inheritance and it
 
 ##### 18.1 Card Objects
 
-Open to page 165 in your book and we will code along with the principles as we learn them.
+Open to page 165 (Chapter 18) covers the principles associated with objects and inheritance.
 
 Book Link (if needed): https://bit.ly/1402-book
 
