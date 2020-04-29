@@ -7,10 +7,10 @@ revealOptions:
     transition: 'fade'
 ---
 
-### ITSE-1402 Intermediate Python
+### ITSE-1042 Intermediate Python
 <span style="font-family:Helvetica Neue; font-weight:bold; color:#e49436">Class 10: Chapter 18: Inheritance / Unit Testing</span>
 <br /><br />
-##### [https://bit.ly/1402-class10](https://bit.ly/1402-class10)
+
 
 -----
 
