@@ -18,10 +18,6 @@ revealOptions:
 
 +++++
 
-[https://bit.ly/1402-chap18](https://bit.ly/1402-chap18)
-
-+++++
-
 The language feature most often associated with object-oriented programming is inheritance. Inheritance is the ability to define a new class that is a modified version of an existing class.
 
 Note:
