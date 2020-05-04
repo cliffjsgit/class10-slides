@@ -50,7 +50,7 @@ class Vehicle(object):
 ```
 
 Note:
-Last class we started looking classes. This should look very familiar with exception of the "(object)" at the end. This state is the same as what we wrote yesterday. Today we are looking at inheritence which is defined between the parentheses.
+Last class we started looking classes. This should look very familiar with exception of the "(object)" at the end. This state is the same as what we wrote in the previous class. Today we are looking at inheritence which is defined between the parentheses.
 
 +++++
 
@@ -127,7 +127,7 @@ We've seen single inheritance, but you can also have multiple inheritance and it
 
 Open to page 165 (Chapter 18) covers the principles associated with objects and inheritance.
 
-Book Link (if needed): https://bit.ly/1402-book
+Book Link (if needed): http://greenteapress.com/thinkpython2/thinkpython2.pdf 
 
 -----
 
@@ -575,7 +575,7 @@ We will now write some nose tests for the previous code we have written.
 
 Homework is 18.3
 
-No homework on unit testing, but it wouldn't hurt to play around with it a little more.
+No homework on unit testing, but it wouldn't hurt to play around with it. 
 
 
 
