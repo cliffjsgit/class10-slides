@@ -125,7 +125,7 @@ We've seen single inheritance, but you can also have multiple inheritance and it
 
 ##### 18.1 Card Objects
 
-Open to page 165 (Chapter 18) covers the principles associated with objects and inheritance.
+Open to page 171 (Chapter 18) covers the principles associated with objects and inheritance.
 
 Book Link (if needed): http://greenteapress.com/thinkpython2/thinkpython2.pdf 
 
