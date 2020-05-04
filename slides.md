@@ -125,13 +125,25 @@ We've seen single inheritance, but you can also have multiple inheritance and it
 
 ##### 18.1 Card Objects
 
-Open to page 171 (Chapter 18) covers the principles associated with objects and inheritance.
+Open to page 171 (Chapter 18) covers the principles associated with objects and inheritance.   
+Book Link (if needed): http://greenteapress.com/thinkpython2/thinkpython2.pdf  
 
-Book Link (if needed): http://greenteapress.com/thinkpython2/thinkpython2.pdf 
++++++
 
+
+- Chapter 18.3 (Homework) Add methods to PokerHand.py named has_pair, has_twopair, etc. 
+  - This problem includes the following files from Chapter 18, which are also included with the Chapter 18 lab problems:
+( https://github.com/cliffjsgit/chapter-18  and  http://thinkpython2.com/code ):      
+    - Card.py      
+      - A complete version of the Card, Deck and Hand classes in this chapter.      
+    - PokerHand.py      
+      - An incomplete implementation of a class that represents a poker hand, and some code that tests it.   
+   
+   
 -----
 
 ##### Unit Testing
+
 
 +++++
 
