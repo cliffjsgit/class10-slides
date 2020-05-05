@@ -150,8 +150,11 @@ Book Link (if needed): http://greenteapress.com/thinkpython2/thinkpython2.pdf
 ![Image](./assets/tdd.png)
 
 Note:
-If you we are going to talk testing, we also need to talk about the methodology behind it. One of the favorite approaches to unit testing is test driven development. This image is a great summary of Test Driven Development.
-Another competing methodology is Behavior Driven Development. We aren't going to go in depth to either of these, but BDD takes a similar approach to TDD with writing tests first as well... just gives greater value in bigger picture viewing.
+If you we are going to talk testing, we also need to talk about the methodology behind it. One of the favorite approaches to unit testing is test driven development. This image is a great summary of Test Driven Development.   
+Another competing methodology is Behavior Driven Development. Behavior Driven Development (BDD) is an Agile software development 
+process that encourages collaboration among developers, QA and non-technical or business participants in a software project.
+
+We aren't going to go in depth to either of these, but BDD takes a similar approach to TDD with writing tests first as well... just gives greater value in bigger picture viewing / design.
 
 +++++
 
@@ -581,13 +584,12 @@ and this is unittest... I'll pass on writing that...
 
 +++++
 
-We will now write some nose tests for the previous code we have written.
 
 -----
 
 Homework is 18.3
 
-No homework on unit testing, but it wouldn't hurt to play around with it. 
+No homework on unit testing. 
 
 
 
